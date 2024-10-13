@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/Desktop/Demo/DemoQA">
+        <classes>
+            <class name="demoqa_tests.AlertTest"/>
+            <class name="demoqa_tests.BrowserWindowsTest"/>
+            <class name="demoqa_tests.ButtonsTest"/>
+            <class name="demoqa_tests.FramesTests"/>
+            <class name="demoqa_tests.MultiSelectTest"/>
+            <class name="demoqa_tests.SelectMenuTests"/>
+            <class name="demoqa_tests.TextBoxTests"/>
+        </classes>
+    </test>
+</suite>

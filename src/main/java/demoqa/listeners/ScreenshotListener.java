@@ -1,4 +1,4 @@
-package demoqa.listerns;
+package demoqa.listeners;
 
 import demoqa.drivers.DriverManager;
 import io.qameta.allure.Attachment;

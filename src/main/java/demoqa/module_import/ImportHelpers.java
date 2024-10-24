@@ -18,6 +18,7 @@ public class ImportHelpers {
     public BrowserManager.IFrameHelper iFrameHelper;
     public WebElementActions webElementActions;
 
+
     public ImportHelpers(WebDriver driver) {
         browserManager = new BrowserManager(driver);
         windowHelper = new BrowserManager.WindowHelper(driver);
@@ -25,6 +26,7 @@ public class ImportHelpers {
         iFrameHelper = new BrowserManager.IFrameHelper(driver);
         dropdownHelper = new DropdownHelper(driver);
         webElementActions = new WebElementActions();
+
     }
 
     public AlertHelper getAlertHelper() {
@@ -47,9 +49,6 @@ public class ImportHelpers {
         return iFrameHelper;
     }
 
-    public WebElementActions getWebElementActions() {
-        return webElementActions;
-    }
 
     public BrowserManager.WindowHelper getWindowHelper() {
         return windowHelper;

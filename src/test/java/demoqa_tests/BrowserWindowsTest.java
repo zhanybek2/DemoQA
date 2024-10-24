@@ -12,3 +12,4 @@ public class BrowserWindowsTest extends BaseTest{
         helper.getWindowHelper().switchToDefaultWindow();
     }
 }
+
